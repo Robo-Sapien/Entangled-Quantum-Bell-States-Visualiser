@@ -150,7 +150,7 @@ def teleportation_full(phi, bell_choice="Φ+", shots=1024, noise_prob=0.0):
 # Streamlit UI
 # -----------------------
 st.set_page_config(page_title="Quantum Entanglement Dashboard", layout="wide")
-st.title("Quantum Bell State & Teleportation Dashboard")
+st.title("Quantum Entanglement & Teleportation Playground")
 
 tab1, tab2 = st.tabs(["Bell State Explorer", "Quantum Teleportation"])
 
